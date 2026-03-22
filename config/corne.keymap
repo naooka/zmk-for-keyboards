@@ -139,7 +139,7 @@
 &kp TAB   &kp N1            &kp N2    &kp N3     &kp N4    &kp N5   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0   &kp DEL
 &kp LCTL  &none             &kp HOME  &kp PG_DN  &kp PG_UP &kp END  &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &none    &none
 &kp LSHFT &kp LC(LA(DEL))   &kp LGUI  &kp LALT   &none     &mo 3    &none      &none     &none      &kp RGUI   &none    &none
-                                 &trans  &trans  &trans   &kp LANG2     &kp LANG1  &mo 3
+                                 &trans  &trans  &trans   &kp INT5     &kp LANG4  &mo 3
             >;
         };
 
@@ -148,7 +148,7 @@
 &kp TAB   &kp EXCL        &kp AT    &kp HASH  &kp DLLR &kp PRCNT /**/   &kp CARET  &kp AMPS  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp PIPE         &kp BACKSLASH
 &kp LCTRL &kp LALT        &kp DEL   &none     &none     &none    /**/   &kp MINUS  &kp EQUAL &kp LBKT      &kp RBKT              &kp NON_US_BSLH  &kp SQT
 &kp LSHFT &kp LC(LA(DEL)) &kp LGUI  &kp LALT  &none     &mo 3    /**/   &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC              &kp NON_US_HASH  &kp GRAVE
-                                     &trans           &kp LANG2          &kp LANG1           &trans    &trans    &mo 3
+                                     &trans           &kp INT5          &kp LANG4           &trans    &trans    &mo 3
             >;
         };
 
