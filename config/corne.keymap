@@ -36,37 +36,9 @@
         };
     };
 
-    macros {
-        ime_on: ime_on {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp INT2>, <&to 4>;
-        };
-        ime_off: ime_off {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp INT5>, <&to 0>;
-        };
-        kana_ka: kana_ka {
-            compatible = "zmk,behavior-macro";
-            #binging-cells = <0>;
-            bindings = <&kp K>, <&kp A>;
-        };
-        kana_ga: kana_ga {
-            compatible = "zmk,behavior-macro";
-            #binging-cells = <0>;
-            bindings = <&kp G>, <&kp A>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
-        combo_ga {
-            timeout-ms = <50>;
-            key-positions = <2 39>;
-            bindings = <&kana_ga>;
-            layers = <4>;
-        };
+
         left_bkt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <4 3>;
@@ -167,7 +139,7 @@
 &kp TAB   &kp N1            &kp N2    &kp N3     &kp N4    &kp N5   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0   &kp DEL
 &kp LCTL  &none             &kp HOME  &kp PG_DN  &kp PG_UP &kp END  &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &none    &none
 &kp LSHFT &kp LC(LA(DEL))   &kp LGUI  &kp LALT   &none     &mo 3    &none      &none     &none      &kp RGUI   &none    &none
-                                 &trans  &trans  &trans   &ime_off     &ime_on  &mo 3
+                                 &trans  &trans  &trans   &kp INT5     &kp INT2  &mo 3
             >;
         };
 
@@ -176,7 +148,7 @@
 &kp TAB   &kp EXCL        &kp AT    &kp HASH  &kp DLLR &kp PRCNT /**/   &kp CARET  &kp AMPS  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LS(INT3)     &kp INT3
 &kp LCTRL &kp LALT        &kp DEL   &none     &none     &none    /**/   &kp MINUS  &kp EQUAL &kp LBKT      &kp RBKT              &kp NUHS     &kp SQT
 &kp LSHFT &kp LC(LA(DEL)) &kp LGUI  &kp LALT  &none     &mo 3    /**/   &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC              &kp LS(NUHS) &kp LS(INT1)
-                                     &trans           &ime_off          &ime_on           &trans    &trans    &mo 3
+                                     &trans           &kp INT5          &kp INT2           &trans    &trans    &mo 3
             >;
         };
 
@@ -189,13 +161,8 @@
             >;
         };
 
-        nicola {
-            bindings = <
-&trans     &trans  &kana_ka  &trans  &trans  &trans  /**/ &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans    &trans  &trans  &trans  /**/ &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans    &trans  &trans  &trans  /**/ &trans  &trans  &trans  &trans  &trans  &trans
-                             &trans  &trans  &trans  /**/ &trans  &trans  &trans
-            >;
+        extra1 {
+            status = "reserved";
         };
         extra2 {
             status = "reserved";
