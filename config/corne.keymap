@@ -50,12 +50,12 @@
         kana_ka: kana_ka {
             compatible = "zmk,behavior-macro";
             #binging-cells = <0>;
-            bindings = <&kp k>, <&kp a>;
+            bindings = <&kp K>, <&kp A>;
         };
         kana_ga: kana_ga {
             compatible = "zmk,behavior-macro";
             #binging-cells = <0>;
-            bindings = <&kp g>, <&kp a>;
+            bindings = <&kp G>, <&kp A>;
         };
     };
 
