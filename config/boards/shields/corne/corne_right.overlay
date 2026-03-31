@@ -29,7 +29,3 @@
         compatible = "zmk,battery-nrf-vddh";
     };
 };
-
-&led_strip {
-    status = "disabled";
-};
