@@ -37,7 +37,7 @@
             quick-tap-ms = <400>;
         };
     };
-
+/*
     combos {
         compatible = "zmk,combos";
 
@@ -87,7 +87,7 @@
             key-positions = <17 18>;
         };
     };
-
+*/
     keymap {
         compatible = "zmk,keymap";
 /* =============================================================================  original
