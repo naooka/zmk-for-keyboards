@@ -2,14 +2,14 @@ macro_IMEON: macro_IMEON{
 compatible = "zmk,behavior-macro";
 label = "macro_IMEON";
 #binding-cells = <0>;
-bindings = <&kp INT2>, <&tog 4>;
+bindings = <&kp INT2>, <&to 4>;
 };
 
 macro_IMEOFF: macro_IMEOFF{
 compatible = "zmk,behavior-macro";
 label = "macro_IMEOFF";
 #binding-cells = <0>;
-bindings = <&kp INT5>, <&tog 0>;
+bindings = <&kp INT5>, <&to 0>;
 };
 
 macro_JPPERIOD: macro_JPPERIOD{
