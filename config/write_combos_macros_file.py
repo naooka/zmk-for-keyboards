@@ -29,9 +29,9 @@ right_macros = [\
 print(len(right_macros))
 
 base_bindings =[\
-('PERIOD',),     ('K','A'),  ('T','A'), ('K','O'), ('S','A'),     ('R','A'), ('T','I'), ('K','U'), ('T','U'), ('LA(COMMA)',), ('COMMA',),\
+('PERIOD',),     ('K','A'),  ('T','A'), ('K','O'), ('S','A'),     ('R','A'), ('T','I'), ('K','U'), ('T','U'), ('COMMA',), ('COMMA',),\
 ('U',),          ('S', 'I'), ('T','E'), ('K','E'), ('S','E'),     ('H','A'), ('T','O'), ('K','I'), ('I',),     ('N','N'),     ('BACKSPACE',),\
-('LA(PERIOD)',), ('H','I'),  ('S','U'), ('H','U'), ('H','E'),     ('M','E'), ('S','O'), ('N','E'), ('H','O'), ('SLASH',),     ('LA(BACKSLASH)',)\
+('PERIOD',), ('H','I'),  ('S','U'), ('H','U'), ('H','E'),     ('M','E'), ('S','O'), ('N','E'), ('H','O'), ('SLASH',),     ('LA(BACKSLASH)',)\
 ]
 print(len(base_bindings))
 
@@ -73,16 +73,21 @@ with open(path_w, mode='w') as f:
     write_combo(fingers, right_thumb, right_macros)
     f.write('};')
 
-
-
-def write_change_lang_macro():
-    f.write('macro_LCSP4: macro_LCSP4{\n')
+def write_ime_on_macro():
+    f.write('macro_IMEON: macro_IMEON{\n')
     f.write('compatible = "zmk,behavior-macro";\n')
-    f.write('label = "macro_LCSP4";\n')
+    f.write('label = "macro_IMEON";\n')
     f.write('#binding-cells = <0>;\n')
-    f.write('bindings = <&kp LC(SPACE)>, <&tog 4>;\n')
+    f.write('bindings = <&kp INT2>, <&tog 4>;\n')
     f.write('};\n\n')
 
+def write_ime_off_macro():
+    f.write('macro_IMEOFF: macro_IMEOFF{\n')
+    f.write('compatible = "zmk,behavior-macro";\n')
+    f.write('label = "macro_IMEOFF";\n')
+    f.write('#binding-cells = <0>;\n')
+    f.write('bindings = <&kp INT5>, <&tog 0>;\n')
+    f.write('};\n\n')
 
 def write_macro(macros, bindings):
     if len(macros) == len(bindings):
@@ -113,7 +118,8 @@ def write_macro(macros, bindings):
 
 path_w = 'macros.dtsi'
 with open(path_w, mode='w') as f:
-    write_change_lang_macro()
+    write_ime_on_macro()
+    write_ime_off_macro()
     write_macro(base_macros, base_bindings)
     write_macro(left_macros, left_bindings)
     write_macro(right_macros, right_bindings)
