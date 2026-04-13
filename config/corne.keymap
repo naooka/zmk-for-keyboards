@@ -105,7 +105,7 @@
 &kp TAB   &kp N1            &kp N2    &kp N3     &kp N4    &kp N5   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0   &kp DEL
 &kp LCTL  &none             &kp HOME  &kp PG_DN  &kp PG_UP &kp END  &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &none    &none
 &kp LSHFT &kp LC(LA(DEL))   &kp LGUI  &kp LALT   &none     &mo 3    &none      &none     &none      &kp RGUI   &none    &none
-                                 &trans  &trans  &trans   &tog 0     &macro_LCSP4  &mo 3
+                                 &trans  &trans  &trans                &macro_IMEOFF &macro_IMEON  &mo 3
             >;
         };
 
@@ -114,7 +114,7 @@
 &kp TAB   &kp EXCL        &kp AT    &kp HASH  &kp DLLR &kp PRCNT /**/   &kp CARET  &kp AMPS  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LS(INT3)     &kp INT3
 &kp LCTRL &kp LALT        &kp DEL   &none     &none     &none    /**/   &kp MINUS  &kp EQUAL &kp LBKT      &kp RBKT              &kp NUHS     &kp SQT
 &kp LSHFT &kp LC(LA(DEL)) &kp LGUI  &kp LALT  &none     &mo 3    /**/   &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC              &kp LS(NUHS) &kp LS(INT1)
-                                     &trans           &tog 0          &macro_LCSP4           &trans    &trans    &mo 3
+                                     &trans   &macro_IMEOFF  &macro_IMEON           &trans    &trans    &mo 3
             >;
         };
 
