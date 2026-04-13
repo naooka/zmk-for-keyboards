@@ -1,8 +1,15 @@
-macro_LCSP4: macro_LCSP4{
+macro_IMEON: macro_IMEON{
 compatible = "zmk,behavior-macro";
-label = "macro_LCSP4";
+label = "macro_IMEON";
 #binding-cells = <0>;
-bindings = <&kp LC(SPACE)>, <&tog 4>;
+bindings = <&kp INT2>, <&tog 4>;
+};
+
+macro_IMEOFF: macro_IMEOFF{
+compatible = "zmk,behavior-macro";
+label = "macro_IMEOFF";
+#binding-cells = <0>;
+bindings = <&kp INT5>, <&tog 0>;
 };
 
 macro_JPPERIOD: macro_JPPERIOD{
@@ -72,7 +79,7 @@ macro_JPCOMMA2: macro_JPCOMMA2{
 compatible = "zmk,behavior-macro";
 label = "macro_JPCOMMA2";
 #binding-cells = <0>;
-bindings = <&kp LA(COMMA)>;
+bindings = <&kp COMMA>;
 };
 
 macro_JPCOMMA1: macro_JPCOMMA1{
@@ -163,7 +170,7 @@ macro_JPTEN: macro_JPTEN{
 compatible = "zmk,behavior-macro";
 label = "macro_JPTEN";
 #binding-cells = <0>;
-bindings = <&kp LA(PERIOD)>;
+bindings = <&kp PERIOD>;
 };
 
 macro_HI: macro_HI{
