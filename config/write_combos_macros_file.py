@@ -78,7 +78,7 @@ def write_ime_on_macro():
     f.write('compatible = "zmk,behavior-macro";\n')
     f.write('label = "macro_IMEON";\n')
     f.write('#binding-cells = <0>;\n')
-    f.write('bindings = <&kp INT2>, <&to 4>;\n')
+    f.write('bindings = <&kp INT2>, <&to 1>;\n')
     f.write('};\n\n')
 
 def write_ime_off_macro():
