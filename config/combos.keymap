@@ -1,6 +1,3 @@
-combos {
-        compatible = "zmk,combos";
-
         combo_XA {
                 timeout-ms = <50>;
                 key-positions = <1 37>;
@@ -392,5 +389,3 @@ combos {
                 layers = <4>;
                 bindings = <&macro_XO>;
         };
-
-};
