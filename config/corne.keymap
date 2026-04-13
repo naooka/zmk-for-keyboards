@@ -96,43 +96,44 @@
 &kp ESC    &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BSPC
 &kp LCTRL  &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L   &kp SEMI &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N   &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-            &kp LGUI  &kp SPACE  &lt 1 SPACE  &lt 2 ENTER  &kp SPACE  &kp RALT
+            &kp LGUI  &kp SPACE  &lt 2 SPACE  &lt 3 ENTER  &kp SPACE  &kp RALT
             >;
         };
 
-        lower_layer {
-            bindings = <
-&kp TAB   &kp N1            &kp N2    &kp N3     &kp N4    &kp N5   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0   &kp DEL
-&kp LCTL  &none             &kp HOME  &kp PG_DN  &kp PG_UP &kp END  &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &none    &none
-&kp LSHFT &kp LC(LA(DEL))   &kp LGUI  &kp LALT   &none     &mo 3    &none      &none     &none      &kp RGUI   &none    &none
-                                 &trans  &trans  &trans                &macro_IMEOFF &macro_IMEON  &mo 3
-            >;
-        };
-
-        raise_layer {
-            bindings = <
-&kp TAB   &kp EXCL        &kp AT    &kp HASH  &kp DLLR &kp PRCNT /**/   &kp CARET  &kp AMPS  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LS(INT3)     &kp INT3
-&kp LCTRL &kp LALT        &kp DEL   &none     &none     &none    /**/   &kp MINUS  &kp EQUAL &kp LBKT      &kp RBKT              &kp NUHS     &kp SQT
-&kp LSHFT &kp LC(LA(DEL)) &kp LGUI  &kp LALT  &none     &mo 3    /**/   &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC              &kp LS(NUHS) &kp LS(INT1)
-                                     &trans   &macro_IMEOFF  &macro_IMEON           &trans    &trans    &mo 3
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&bootloader  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR /**/ &trans  &trans  &trans  &trans  &trans  &bootloader
-&trans       &trans          &trans          &trans        &trans        &trans     /**/ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6
-&trans       &rgb_ug RGB_TOG &rgb_ug RGB_EFR &trans        &trans        &trans     /**/ &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-                                    &trans        &trans        &trans  &trans     &trans  &trans
-            >;
-        };
-
-        layer_4 {
+        layer_nicola {
             bindings = <
  &trans  &macro_JPPERIOD    &macro_KA    &macro_TA    &macro_KO    &macro_SA            &macro_RA    &macro_TI    &macro_KU    &macro_TU   &macro_JPCOMMA2     &kp BSPC
  &trans         &macro_U    &macro_SI    &macro_TE    &macro_KE    &macro_SE            &macro_HA    &macro_TO    &macro_KI     &macro_I         &macro_NN  &macro_JPBACKSPACE
  &kp RSHFT  &macro_JPTEN    &macro_HI    &macro_SU    &macro_HU    &macro_HE            &macro_ME    &macro_SO    &macro_NE    &macro_HO  &macro_JPNAKATEN         &kp LSHFT
                                          &trans       &trans       &trans               &trans  &trans       &trans 
+            >;
+        };
+
+
+        layer_number {
+            bindings = <
+&kp TAB   &kp N1            &kp N2    &kp N3     &kp N4    &kp N5   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0   &kp DEL
+&kp LCTL  &none             &kp HOME  &kp PG_DN  &kp PG_UP &kp END  &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &none    &none
+&kp LSHFT &kp LC(LA(DEL))   &kp LGUI  &kp LALT   &none     &mo 4    &none      &none     &none      &kp RGUI   &none    &none
+                                 &trans  &trans  &trans                &macro_IMEOFF &macro_IMEON  &mo 4
+            >;
+        };
+
+        layer_mark {
+            bindings = <
+&kp TAB   &kp EXCL        &kp AT    &kp HASH  &kp DLLR &kp PRCNT /**/   &kp CARET  &kp AMPS  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LS(INT3)     &kp INT3
+&kp LCTRL &kp LALT        &kp DEL   &none     &none     &none    /**/   &kp MINUS  &kp EQUAL &kp LBKT      &kp RBKT              &kp NUHS     &kp SQT
+&kp LSHFT &kp LC(LA(DEL)) &kp LGUI  &kp LALT  &none     &mo 4    /**/   &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC              &kp LS(NUHS) &kp LS(INT1)
+                                     &trans   &macro_IMEOFF  &macro_IMEON           &trans    &trans    &mo 4
+            >;
+        };
+
+        layer_func {
+            bindings = <
+&bootloader  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR /**/ &trans  &trans  &trans  &trans  &trans  &bootloader
+&trans       &trans          &trans          &trans        &trans        &trans     /**/ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6
+&trans       &rgb_ug RGB_TOG &rgb_ug RGB_EFR &trans        &trans        &trans     /**/ &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+                                    &trans        &trans        &trans  &trans     &trans  &trans
             >;
         };
 
