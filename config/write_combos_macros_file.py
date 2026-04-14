@@ -80,27 +80,22 @@ with open(path_w, mode='w') as f:
     write_combo(fingers, right_thumb, right_macros)
     f.write('};')
 
-def write_behavior(fingers, thumb, macros):
-    if len(fingers) == len(macros):
-        for finger, macro in zip(fingers, macros):
-            if macro != 'NONE':
-                f.write('\tcombo_' + macro + ' {\n')
-                f.write('\t\ttimeout-ms = <' + str(timeout_ms) + '>;\n')
-                f.write('\t\tkey-positions = <' + str(finger) + ' ' + str(thumb) + '>;\n')
-                f.write('\t\tlayers = <4>;\n')
-                f.write('\t\tbindings = <&macro_' + macro + '>;\n')
-                f.write('\t};\n\n')
-            else:
-                pass
-    else:
-        print('length is not equal at combo.')
+def write_behavior(macros, bases):
+    for macro, base in zip(macros, bases):
+        if macro != 'NONE' and base != '':
+            f.write('mm_' + macro + ': mm_' + macro + '{\n')
+            f.write('compatible = "zmk,behavior-mod-morph";\n')
+            f.write('label = "MOD_MORPH' + macro + '";\n')
+            f.write('#binding-cells = <0>;\n')
+            f.write('bindings = <&macro_' + macro + '>, <&kp ' + base + '>;\n')
+            f.write('mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;\n')
+            f.write('};\n\n')
 
 path_w = 'behaviors.keymap'
 with open(path_w, mode='w') as f:
     f.write('behaviors {\n')
     f.write('\tcompatible = "zmk,behavior-mod-morph";\n\n')
-    write_behavior(fingers, left_thumb,  left_macros)
-    write_behavior(fingers, right_thumb, right_macros)
+    write_behavior(base_macros, bases)
     f.write('};')
 
 def write_ime_on_macro():
