@@ -125,13 +125,13 @@ def write_macro(macros, bindings):
                 f.write('compatible = "zmk,behavior-macro";\n')
                 f.write('label = "macro_' + macro + '";\n')
                 f.write('#binding-cells = <0>;\n')
-                f.write('bindings = ')
+                f.write('bindings = <&to 0>, ')
                 for i,s in enumerate(binding):
                     if i == 0:
                         f.write('<&kp ' + s + '>')
                     else:
                         f.write(', <&kp ' + s + '>')
-                f.write(';\n')
+                f.write(', <&to 1>;\n')
                 f.write('};\n\n')
             elif (macro != 'NONE' and binding == 'NONE') or (macro == 'NONE' and binding != 'NONE'):
                 print('macro-binding pair error.')
