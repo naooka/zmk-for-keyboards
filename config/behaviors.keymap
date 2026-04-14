@@ -4,6 +4,7 @@ label = "MOD_MORPHJPPERIOD";
 #binding-cells = <0>;
 bindings = <&macro_JPPERIOD>, <&kp Q>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_KA: mm_KA{
@@ -12,6 +13,7 @@ label = "MOD_MORPHKA";
 #binding-cells = <0>;
 bindings = <&macro_KA>, <&kp W>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_TA: mm_TA{
@@ -20,6 +22,7 @@ label = "MOD_MORPHTA";
 #binding-cells = <0>;
 bindings = <&macro_TA>, <&kp E>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_KO: mm_KO{
@@ -28,6 +31,7 @@ label = "MOD_MORPHKO";
 #binding-cells = <0>;
 bindings = <&macro_KO>, <&kp R>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_SA: mm_SA{
@@ -36,6 +40,7 @@ label = "MOD_MORPHSA";
 #binding-cells = <0>;
 bindings = <&macro_SA>, <&kp T>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_RA: mm_RA{
@@ -44,6 +49,7 @@ label = "MOD_MORPHRA";
 #binding-cells = <0>;
 bindings = <&macro_RA>, <&kp Y>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_TI: mm_TI{
@@ -52,6 +58,7 @@ label = "MOD_MORPHTI";
 #binding-cells = <0>;
 bindings = <&macro_TI>, <&kp U>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_KU: mm_KU{
@@ -60,6 +67,7 @@ label = "MOD_MORPHKU";
 #binding-cells = <0>;
 bindings = <&macro_KU>, <&kp I>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_TU: mm_TU{
@@ -68,6 +76,7 @@ label = "MOD_MORPHTU";
 #binding-cells = <0>;
 bindings = <&macro_TU>, <&kp O>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_JPCOMMA2: mm_JPCOMMA2{
@@ -76,6 +85,7 @@ label = "MOD_MORPHJPCOMMA2";
 #binding-cells = <0>;
 bindings = <&macro_JPCOMMA2>, <&kp P>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_U: mm_U{
@@ -84,6 +94,7 @@ label = "MOD_MORPHU";
 #binding-cells = <0>;
 bindings = <&macro_U>, <&kp A>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_SI: mm_SI{
@@ -92,6 +103,7 @@ label = "MOD_MORPHSI";
 #binding-cells = <0>;
 bindings = <&macro_SI>, <&kp S>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_TE: mm_TE{
@@ -100,6 +112,7 @@ label = "MOD_MORPHTE";
 #binding-cells = <0>;
 bindings = <&macro_TE>, <&kp D>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_KE: mm_KE{
@@ -108,6 +121,7 @@ label = "MOD_MORPHKE";
 #binding-cells = <0>;
 bindings = <&macro_KE>, <&kp F>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_SE: mm_SE{
@@ -116,6 +130,7 @@ label = "MOD_MORPHSE";
 #binding-cells = <0>;
 bindings = <&macro_SE>, <&kp G>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_HA: mm_HA{
@@ -124,6 +139,7 @@ label = "MOD_MORPHHA";
 #binding-cells = <0>;
 bindings = <&macro_HA>, <&kp H>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_TO: mm_TO{
@@ -132,6 +148,7 @@ label = "MOD_MORPHTO";
 #binding-cells = <0>;
 bindings = <&macro_TO>, <&kp J>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_KI: mm_KI{
@@ -140,6 +157,7 @@ label = "MOD_MORPHKI";
 #binding-cells = <0>;
 bindings = <&macro_KI>, <&kp K>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_I: mm_I{
@@ -148,6 +166,7 @@ label = "MOD_MORPHI";
 #binding-cells = <0>;
 bindings = <&macro_I>, <&kp L>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_JPTEN: mm_JPTEN{
@@ -156,6 +175,7 @@ label = "MOD_MORPHJPTEN";
 #binding-cells = <0>;
 bindings = <&macro_JPTEN>, <&kp Z>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_HI: mm_HI{
@@ -164,6 +184,7 @@ label = "MOD_MORPHHI";
 #binding-cells = <0>;
 bindings = <&macro_HI>, <&kp X>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_SU: mm_SU{
@@ -172,6 +193,7 @@ label = "MOD_MORPHSU";
 #binding-cells = <0>;
 bindings = <&macro_SU>, <&kp C>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_HU: mm_HU{
@@ -180,6 +202,7 @@ label = "MOD_MORPHHU";
 #binding-cells = <0>;
 bindings = <&macro_HU>, <&kp V>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_HE: mm_HE{
@@ -188,6 +211,7 @@ label = "MOD_MORPHHE";
 #binding-cells = <0>;
 bindings = <&macro_HE>, <&kp B>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_ME: mm_ME{
@@ -196,6 +220,7 @@ label = "MOD_MORPHME";
 #binding-cells = <0>;
 bindings = <&macro_ME>, <&kp N>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
 
 mm_SO: mm_SO{
@@ -204,4 +229,5 @@ label = "MOD_MORPHSO";
 #binding-cells = <0>;
 bindings = <&macro_SO>, <&kp M>;
 mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
+keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;
 };
