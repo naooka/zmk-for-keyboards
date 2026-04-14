@@ -7,6 +7,13 @@ fingers = [ 1,  2,  3,  4,  5,      6,  7,  8,  9, 10, 11,\
 left_thumb  = 37
 right_thumb = 40
 
+base_origin = [\
+ 'Q', 'W',   'E',   'R',   'T',         'Y',   'U',   'I',   'O', 'P',  '',\
+ 'A', 'S',   'D',   'F',   'G',         'H',   'J',   'K',   'L',  '',  '',\
+ 'Z', 'X',   'C',   'V',   'B',         'N',   'M',    '',    '',  '',  ''\
+ ]
+print(len(base_origin))
+
 base_macros = [\
  'JPPERIOD', 'KA',   'TA',   'KO',   'SA',         'RA',   'TI',   'KU',   'TU',   'JPCOMMA2',  'JPCOMMA1',\
  'U',        'SI',   'TE',   'KE',   'SE',         'HA',   'TO',   'KI',   'I',    'NN',        'JPBACKSPACE',\
@@ -71,6 +78,29 @@ with open(path_w, mode='w') as f:
     f.write('\tcompatible = "zmk,combos";\n\n')
     write_combo(fingers, left_thumb,  left_macros)
     write_combo(fingers, right_thumb, right_macros)
+    f.write('};')
+
+def write_behavior(fingers, thumb, macros):
+    if len(fingers) == len(macros):
+        for finger, macro in zip(fingers, macros):
+            if macro != 'NONE':
+                f.write('\tcombo_' + macro + ' {\n')
+                f.write('\t\ttimeout-ms = <' + str(timeout_ms) + '>;\n')
+                f.write('\t\tkey-positions = <' + str(finger) + ' ' + str(thumb) + '>;\n')
+                f.write('\t\tlayers = <4>;\n')
+                f.write('\t\tbindings = <&macro_' + macro + '>;\n')
+                f.write('\t};\n\n')
+            else:
+                pass
+    else:
+        print('length is not equal at combo.')
+
+path_w = 'behaviors.keymap'
+with open(path_w, mode='w') as f:
+    f.write('behaviors {\n')
+    f.write('\tcompatible = "zmk,behavior-mod-morph";\n\n')
+    write_behavior(fingers, left_thumb,  left_macros)
+    write_behavior(fingers, right_thumb, right_macros)
     f.write('};')
 
 def write_ime_on_macro():
