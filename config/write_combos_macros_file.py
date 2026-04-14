@@ -88,8 +88,8 @@ def write_behavior(macros, bases):
             f.write('label = "MOD_MORPH' + macro + '";\n')
             f.write('#binding-cells = <0>;\n')
             f.write('bindings = <&macro_' + macro + '>, <&kp ' + base + '>;\n')
-            f.write('mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT|MOD_RSFT)>;\n')
-            f.write('keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;\n')
+            f.write('mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;\n')
+            f.write('keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT)>;\n')
             f.write('};\n\n')
 
 path_w = 'behaviors.keymap'
@@ -128,13 +128,13 @@ def write_macro(macros, bindings):
                 f.write('#binding-cells = <0>;\n')
                 f.write('wait-ms = <0>;\n')
                 f.write('tap-ms = <1>;\n')
-                f.write('bindings = ')
+                f.write('bindings = <&to 0>, ')
                 for i,s in enumerate(binding):
                     if i == 0:
-                        f.write('<&kp RS(' + s + ')>')
+                        f.write('<&kp ' + s + '>')
                     else:
-                        f.write(', <&kp RS(' + s + ')>')
-                f.write(';\n};\n\n')
+                        f.write(', <&kp ' + s + '>')
+                f.write(', <&to 1>;\n};\n\n')
             elif (macro != 'NONE' and binding == 'NONE') or (macro == 'NONE' and binding != 'NONE'):
                 print('macro-binding pair error.')
             else:
