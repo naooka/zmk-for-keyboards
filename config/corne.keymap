@@ -12,6 +12,7 @@
 / {
     behaviors {
         #include "macros.dtsi"
+        #include "behaviors.keymap"
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -102,9 +103,9 @@
 
         layer_nicola {
             bindings = <
- &trans  &macro_JPPERIOD    &macro_KA    &macro_TA    &macro_KO    &macro_SA            &macro_RA    &macro_TI    &macro_KU    &macro_TU   &macro_JPCOMMA2     &kp BSPC
- &trans         &macro_U    &macro_SI    &macro_TE    &macro_KE    &macro_SE            &macro_HA    &macro_TO    &macro_KI     &macro_I         &macro_NN  &macro_JPBACKSPACE
- &kp RSHFT  &macro_JPTEN    &macro_HI    &macro_SU    &macro_HU    &macro_HE            &macro_ME    &macro_SO    &macro_NE    &macro_HO  &macro_JPNAKATEN         &kp LSHFT
+ &trans  &mm_JPPERIOD    &mm_KA    &mm_TA    &mm_KO    &mm_SA            &mm_RA    &mm_TI    &mm_KU    &mm_TU   &macro_JPCOMMA2     &kp BSPC
+ &trans         &mm_U    &mm_SI    &mm_TE    &mm_KE    &mm_SE            &mm_HA    &mm_TO    &mm_KI    &mm_I    &macro_NN  &macro_JPBACKSPACE
+ &kp RSHFT  &mm_JPTEN    &mm_HI    &mm_SU    &mm_HU    &mm_HE            &mm_ME    &mm_SO    &mm_NE    &mm_HO   &macro_JPNAKATEN         &kp LSHFT
                                          &trans       &trans       &trans               &trans  &trans       &trans 
             >;
         };
