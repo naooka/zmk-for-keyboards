@@ -74,11 +74,11 @@ def write_combo(fingers, thumb, macros):
 
 path_w = 'combos.keymap'
 with open(path_w, mode='w') as f:
-    f.write('combos {\n')
-    f.write('\tcompatible = "zmk,combos";\n\n')
+    #f.write('combos {\n')
+    #f.write('\tcompatible = "zmk,combos";\n\n')
     write_combo(fingers, left_thumb,  left_macros)
     write_combo(fingers, right_thumb, right_macros)
-    f.write('};')
+    #f.write('};')
 
 def write_behavior(macros, bases):
     for macro, base in zip(macros, bases):
@@ -93,10 +93,10 @@ def write_behavior(macros, bases):
 
 path_w = 'behaviors.keymap'
 with open(path_w, mode='w') as f:
-    f.write('behaviors {\n')
-    f.write('\tcompatible = "zmk,behavior-mod-morph";\n\n')
+    #f.write('behaviors {\n')
+    #f.write('\tcompatible = "zmk,behavior-mod-morph";\n\n')
     write_behavior(base_macros, base_origins)
-    f.write('};')
+    #f.write('};')
 
 def write_ime_on_macro():
     f.write('macro_IMEON: macro_IMEON{\n')
