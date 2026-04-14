@@ -89,6 +89,7 @@ def write_behavior(macros, bases):
             f.write('#binding-cells = <0>;\n')
             f.write('bindings = <&macro_' + macro + '>, <&kp ' + base + '>;\n')
             f.write('mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;\n')
+            f.write('keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LGUI|MOD_RGUI|MOD_LALT|MOD_RALT)>;\n')
             f.write('};\n\n')
 
 path_w = 'behaviors.keymap'
