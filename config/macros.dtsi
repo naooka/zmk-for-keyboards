@@ -18,7 +18,7 @@ label = "macro_JPPERIOD";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(PERIOD)>
+bindings = <&kp RS(PERIOD)>;
 };
 
 macro_KA: macro_KA{
@@ -27,7 +27,7 @@ label = "macro_KA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(K)>, <&kp RS(A)>
+bindings = <&kp RS(K)>, <&kp RS(A)>;
 };
 
 macro_TA: macro_TA{
@@ -36,7 +36,7 @@ label = "macro_TA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(T)>, <&kp RS(A)>
+bindings = <&kp RS(T)>, <&kp RS(A)>;
 };
 
 macro_KO: macro_KO{
@@ -45,7 +45,7 @@ label = "macro_KO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(K)>, <&kp RS(O)>
+bindings = <&kp RS(K)>, <&kp RS(O)>;
 };
 
 macro_SA: macro_SA{
@@ -54,7 +54,7 @@ label = "macro_SA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(S)>, <&kp RS(A)>
+bindings = <&kp RS(S)>, <&kp RS(A)>;
 };
 
 macro_RA: macro_RA{
@@ -63,7 +63,7 @@ label = "macro_RA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(R)>, <&kp RS(A)>
+bindings = <&kp RS(R)>, <&kp RS(A)>;
 };
 
 macro_TI: macro_TI{
@@ -72,7 +72,7 @@ label = "macro_TI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(T)>, <&kp RS(I)>
+bindings = <&kp RS(T)>, <&kp RS(I)>;
 };
 
 macro_KU: macro_KU{
@@ -81,7 +81,7 @@ label = "macro_KU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(K)>, <&kp RS(U)>
+bindings = <&kp RS(K)>, <&kp RS(U)>;
 };
 
 macro_TU: macro_TU{
@@ -90,7 +90,7 @@ label = "macro_TU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(T)>, <&kp RS(U)>
+bindings = <&kp RS(T)>, <&kp RS(U)>;
 };
 
 macro_JPCOMMA2: macro_JPCOMMA2{
@@ -99,7 +99,7 @@ label = "macro_JPCOMMA2";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(COMMA)>
+bindings = <&kp RS(COMMA)>;
 };
 
 macro_JPCOMMA1: macro_JPCOMMA1{
@@ -108,7 +108,7 @@ label = "macro_JPCOMMA1";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(COMMA)>
+bindings = <&kp RS(COMMA)>;
 };
 
 macro_U: macro_U{
@@ -117,7 +117,7 @@ label = "macro_U";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(U)>
+bindings = <&kp RS(U)>;
 };
 
 macro_SI: macro_SI{
@@ -126,7 +126,7 @@ label = "macro_SI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(S)>, <&kp RS(I)>
+bindings = <&kp RS(S)>, <&kp RS(I)>;
 };
 
 macro_TE: macro_TE{
@@ -135,7 +135,7 @@ label = "macro_TE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(T)>, <&kp RS(E)>
+bindings = <&kp RS(T)>, <&kp RS(E)>;
 };
 
 macro_KE: macro_KE{
@@ -144,7 +144,7 @@ label = "macro_KE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(K)>, <&kp RS(E)>
+bindings = <&kp RS(K)>, <&kp RS(E)>;
 };
 
 macro_SE: macro_SE{
@@ -153,7 +153,7 @@ label = "macro_SE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(S)>, <&kp RS(E)>
+bindings = <&kp RS(S)>, <&kp RS(E)>;
 };
 
 macro_HA: macro_HA{
@@ -162,7 +162,7 @@ label = "macro_HA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(H)>, <&kp RS(A)>
+bindings = <&kp RS(H)>, <&kp RS(A)>;
 };
 
 macro_TO: macro_TO{
@@ -171,7 +171,7 @@ label = "macro_TO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(T)>, <&kp RS(O)>
+bindings = <&kp RS(T)>, <&kp RS(O)>;
 };
 
 macro_KI: macro_KI{
@@ -180,7 +180,7 @@ label = "macro_KI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(K)>, <&kp RS(I)>
+bindings = <&kp RS(K)>, <&kp RS(I)>;
 };
 
 macro_I: macro_I{
@@ -189,7 +189,7 @@ label = "macro_I";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(I)>
+bindings = <&kp RS(I)>;
 };
 
 macro_NN: macro_NN{
@@ -198,7 +198,7 @@ label = "macro_NN";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(N)>, <&kp RS(N)>
+bindings = <&kp RS(N)>, <&kp RS(N)>;
 };
 
 macro_JPBACKSPACE: macro_JPBACKSPACE{
@@ -207,7 +207,7 @@ label = "macro_JPBACKSPACE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(BACKSPACE)>
+bindings = <&kp RS(BACKSPACE)>;
 };
 
 macro_JPTEN: macro_JPTEN{
@@ -216,7 +216,7 @@ label = "macro_JPTEN";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(PERIOD)>
+bindings = <&kp RS(PERIOD)>;
 };
 
 macro_HI: macro_HI{
@@ -225,7 +225,7 @@ label = "macro_HI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(H)>, <&kp RS(I)>
+bindings = <&kp RS(H)>, <&kp RS(I)>;
 };
 
 macro_SU: macro_SU{
@@ -234,7 +234,7 @@ label = "macro_SU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(S)>, <&kp RS(U)>
+bindings = <&kp RS(S)>, <&kp RS(U)>;
 };
 
 macro_HU: macro_HU{
@@ -243,7 +243,7 @@ label = "macro_HU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(H)>, <&kp RS(U)>
+bindings = <&kp RS(H)>, <&kp RS(U)>;
 };
 
 macro_HE: macro_HE{
@@ -252,7 +252,7 @@ label = "macro_HE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(H)>, <&kp RS(E)>
+bindings = <&kp RS(H)>, <&kp RS(E)>;
 };
 
 macro_ME: macro_ME{
@@ -261,7 +261,7 @@ label = "macro_ME";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(M)>, <&kp RS(E)>
+bindings = <&kp RS(M)>, <&kp RS(E)>;
 };
 
 macro_SO: macro_SO{
@@ -270,7 +270,7 @@ label = "macro_SO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(S)>, <&kp RS(O)>
+bindings = <&kp RS(S)>, <&kp RS(O)>;
 };
 
 macro_NE: macro_NE{
@@ -279,7 +279,7 @@ label = "macro_NE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(N)>, <&kp RS(E)>
+bindings = <&kp RS(N)>, <&kp RS(E)>;
 };
 
 macro_HO: macro_HO{
@@ -288,7 +288,7 @@ label = "macro_HO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(H)>, <&kp RS(O)>
+bindings = <&kp RS(H)>, <&kp RS(O)>;
 };
 
 macro_JPNAKATEN: macro_JPNAKATEN{
@@ -297,7 +297,7 @@ label = "macro_JPNAKATEN";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(SLASH)>
+bindings = <&kp RS(SLASH)>;
 };
 
 macro_JPEN: macro_JPEN{
@@ -306,7 +306,7 @@ label = "macro_JPEN";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(LA(BACKSLASH))>
+bindings = <&kp RS(LA(BACKSLASH))>;
 };
 
 macro_XA: macro_XA{
@@ -315,7 +315,7 @@ label = "macro_XA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(A)>
+bindings = <&kp RS(X)>, <&kp RS(A)>;
 };
 
 macro_E: macro_E{
@@ -324,7 +324,7 @@ label = "macro_E";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(E)>
+bindings = <&kp RS(E)>;
 };
 
 macro_RI: macro_RI{
@@ -333,7 +333,7 @@ label = "macro_RI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(R)>, <&kp RS(I)>
+bindings = <&kp RS(R)>, <&kp RS(I)>;
 };
 
 macro_XYA: macro_XYA{
@@ -342,7 +342,7 @@ label = "macro_XYA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(Y)>, <&kp RS(A)>
+bindings = <&kp RS(X)>, <&kp RS(Y)>, <&kp RS(A)>;
 };
 
 macro_RE: macro_RE{
@@ -351,7 +351,7 @@ label = "macro_RE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(R)>, <&kp RS(E)>
+bindings = <&kp RS(R)>, <&kp RS(E)>;
 };
 
 macro_PA: macro_PA{
@@ -360,7 +360,7 @@ label = "macro_PA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(P)>, <&kp RS(A)>
+bindings = <&kp RS(P)>, <&kp RS(A)>;
 };
 
 macro_DI: macro_DI{
@@ -369,7 +369,7 @@ label = "macro_DI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(D)>, <&kp RS(I)>
+bindings = <&kp RS(D)>, <&kp RS(I)>;
 };
 
 macro_GU: macro_GU{
@@ -378,7 +378,7 @@ label = "macro_GU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(G)>, <&kp RS(U)>
+bindings = <&kp RS(G)>, <&kp RS(U)>;
 };
 
 macro_DU: macro_DU{
@@ -387,7 +387,7 @@ label = "macro_DU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(D)>, <&kp RS(U)>
+bindings = <&kp RS(D)>, <&kp RS(U)>;
 };
 
 macro_PI: macro_PI{
@@ -396,7 +396,7 @@ label = "macro_PI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(P)>, <&kp RS(I)>
+bindings = <&kp RS(P)>, <&kp RS(I)>;
 };
 
 macro_WO: macro_WO{
@@ -405,7 +405,7 @@ label = "macro_WO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(W)>, <&kp RS(O)>
+bindings = <&kp RS(W)>, <&kp RS(O)>;
 };
 
 macro_A: macro_A{
@@ -414,7 +414,7 @@ label = "macro_A";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(A)>
+bindings = <&kp RS(A)>;
 };
 
 macro_NA: macro_NA{
@@ -423,7 +423,7 @@ label = "macro_NA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(N)>, <&kp RS(A)>
+bindings = <&kp RS(N)>, <&kp RS(A)>;
 };
 
 macro_XYU: macro_XYU{
@@ -432,7 +432,7 @@ label = "macro_XYU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(Y)>, <&kp RS(U)>
+bindings = <&kp RS(X)>, <&kp RS(Y)>, <&kp RS(U)>;
 };
 
 macro_MO: macro_MO{
@@ -441,7 +441,7 @@ label = "macro_MO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(M)>, <&kp RS(O)>
+bindings = <&kp RS(M)>, <&kp RS(O)>;
 };
 
 macro_BA: macro_BA{
@@ -450,7 +450,7 @@ label = "macro_BA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(B)>, <&kp RS(A)>
+bindings = <&kp RS(B)>, <&kp RS(A)>;
 };
 
 macro_DO: macro_DO{
@@ -459,7 +459,7 @@ label = "macro_DO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(D)>, <&kp RS(O)>
+bindings = <&kp RS(D)>, <&kp RS(O)>;
 };
 
 macro_GI: macro_GI{
@@ -468,7 +468,7 @@ label = "macro_GI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(G)>, <&kp RS(I)>
+bindings = <&kp RS(G)>, <&kp RS(I)>;
 };
 
 macro_PO: macro_PO{
@@ -477,7 +477,7 @@ label = "macro_PO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(P)>, <&kp RS(O)>
+bindings = <&kp RS(P)>, <&kp RS(O)>;
 };
 
 macro_XU: macro_XU{
@@ -486,7 +486,7 @@ label = "macro_XU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(U)>
+bindings = <&kp RS(X)>, <&kp RS(U)>;
 };
 
 macro_JPMINUS2: macro_JPMINUS2{
@@ -495,7 +495,7 @@ label = "macro_JPMINUS2";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(MINUS)>
+bindings = <&kp RS(MINUS)>;
 };
 
 macro_RO: macro_RO{
@@ -504,7 +504,7 @@ label = "macro_RO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(R)>, <&kp RS(O)>
+bindings = <&kp RS(R)>, <&kp RS(O)>;
 };
 
 macro_YA: macro_YA{
@@ -513,7 +513,7 @@ label = "macro_YA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(Y)>, <&kp RS(A)>
+bindings = <&kp RS(Y)>, <&kp RS(A)>;
 };
 
 macro_XI: macro_XI{
@@ -522,7 +522,7 @@ label = "macro_XI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(I)>
+bindings = <&kp RS(X)>, <&kp RS(I)>;
 };
 
 macro_PU: macro_PU{
@@ -531,7 +531,7 @@ label = "macro_PU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(P)>, <&kp RS(U)>
+bindings = <&kp RS(P)>, <&kp RS(U)>;
 };
 
 macro_ZO: macro_ZO{
@@ -540,7 +540,7 @@ label = "macro_ZO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(Z)>, <&kp RS(O)>
+bindings = <&kp RS(Z)>, <&kp RS(O)>;
 };
 
 macro_PE: macro_PE{
@@ -549,7 +549,7 @@ label = "macro_PE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(P)>, <&kp RS(E)>
+bindings = <&kp RS(P)>, <&kp RS(E)>;
 };
 
 macro_BO: macro_BO{
@@ -558,7 +558,7 @@ label = "macro_BO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(B)>, <&kp RS(O)>
+bindings = <&kp RS(B)>, <&kp RS(O)>;
 };
 
 macro_GA: macro_GA{
@@ -567,7 +567,7 @@ label = "macro_GA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(G)>, <&kp RS(A)>
+bindings = <&kp RS(G)>, <&kp RS(A)>;
 };
 
 macro_DA: macro_DA{
@@ -576,7 +576,7 @@ label = "macro_DA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(D)>, <&kp RS(A)>
+bindings = <&kp RS(D)>, <&kp RS(A)>;
 };
 
 macro_GO: macro_GO{
@@ -585,7 +585,7 @@ label = "macro_GO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(G)>, <&kp RS(O)>
+bindings = <&kp RS(G)>, <&kp RS(O)>;
 };
 
 macro_ZA: macro_ZA{
@@ -594,7 +594,7 @@ label = "macro_ZA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(Z)>, <&kp RS(A)>
+bindings = <&kp RS(Z)>, <&kp RS(A)>;
 };
 
 macro_YO: macro_YO{
@@ -603,7 +603,7 @@ label = "macro_YO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(Y)>, <&kp RS(O)>
+bindings = <&kp RS(Y)>, <&kp RS(O)>;
 };
 
 macro_NI: macro_NI{
@@ -612,7 +612,7 @@ label = "macro_NI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(N)>, <&kp RS(I)>
+bindings = <&kp RS(N)>, <&kp RS(I)>;
 };
 
 macro_RU: macro_RU{
@@ -621,7 +621,7 @@ label = "macro_RU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(R)>, <&kp RS(U)>
+bindings = <&kp RS(R)>, <&kp RS(U)>;
 };
 
 macro_MA: macro_MA{
@@ -630,7 +630,7 @@ label = "macro_MA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(M)>, <&kp RS(A)>
+bindings = <&kp RS(M)>, <&kp RS(A)>;
 };
 
 macro_XE: macro_XE{
@@ -639,7 +639,7 @@ label = "macro_XE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(E)>
+bindings = <&kp RS(X)>, <&kp RS(E)>;
 };
 
 macro_VU: macro_VU{
@@ -648,7 +648,7 @@ label = "macro_VU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(V)>, <&kp RS(U)>
+bindings = <&kp RS(V)>, <&kp RS(U)>;
 };
 
 macro_JI: macro_JI{
@@ -657,7 +657,7 @@ label = "macro_JI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(J)>, <&kp RS(I)>
+bindings = <&kp RS(J)>, <&kp RS(I)>;
 };
 
 macro_DE: macro_DE{
@@ -666,7 +666,7 @@ label = "macro_DE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(D)>, <&kp RS(E)>
+bindings = <&kp RS(D)>, <&kp RS(E)>;
 };
 
 macro_GE: macro_GE{
@@ -675,7 +675,7 @@ label = "macro_GE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(G)>, <&kp RS(E)>
+bindings = <&kp RS(G)>, <&kp RS(E)>;
 };
 
 macro_ZE: macro_ZE{
@@ -684,7 +684,7 @@ label = "macro_ZE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(Z)>, <&kp RS(E)>
+bindings = <&kp RS(Z)>, <&kp RS(E)>;
 };
 
 macro_MI: macro_MI{
@@ -693,7 +693,7 @@ label = "macro_MI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(M)>, <&kp RS(I)>
+bindings = <&kp RS(M)>, <&kp RS(I)>;
 };
 
 macro_O: macro_O{
@@ -702,7 +702,7 @@ label = "macro_O";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(O)>
+bindings = <&kp RS(O)>;
 };
 
 macro_NO: macro_NO{
@@ -711,7 +711,7 @@ label = "macro_NO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(N)>, <&kp RS(O)>
+bindings = <&kp RS(N)>, <&kp RS(O)>;
 };
 
 macro_XYO: macro_XYO{
@@ -720,7 +720,7 @@ label = "macro_XYO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(Y)>, <&kp RS(O)>
+bindings = <&kp RS(X)>, <&kp RS(Y)>, <&kp RS(O)>;
 };
 
 macro_XTU: macro_XTU{
@@ -729,7 +729,7 @@ label = "macro_XTU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(T)>, <&kp RS(U)>
+bindings = <&kp RS(X)>, <&kp RS(T)>, <&kp RS(U)>;
 };
 
 macro_BI: macro_BI{
@@ -738,7 +738,7 @@ label = "macro_BI";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(B)>, <&kp RS(I)>
+bindings = <&kp RS(B)>, <&kp RS(I)>;
 };
 
 macro_ZU: macro_ZU{
@@ -747,7 +747,7 @@ label = "macro_ZU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(Z)>, <&kp RS(U)>
+bindings = <&kp RS(Z)>, <&kp RS(U)>;
 };
 
 macro_BU: macro_BU{
@@ -756,7 +756,7 @@ label = "macro_BU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(B)>, <&kp RS(U)>
+bindings = <&kp RS(B)>, <&kp RS(U)>;
 };
 
 macro_BE: macro_BE{
@@ -765,7 +765,7 @@ label = "macro_BE";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(B)>, <&kp RS(E)>
+bindings = <&kp RS(B)>, <&kp RS(E)>;
 };
 
 macro_NU: macro_NU{
@@ -774,7 +774,7 @@ label = "macro_NU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(N)>, <&kp RS(U)>
+bindings = <&kp RS(N)>, <&kp RS(U)>;
 };
 
 macro_YU: macro_YU{
@@ -783,7 +783,7 @@ label = "macro_YU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(Y)>, <&kp RS(U)>
+bindings = <&kp RS(Y)>, <&kp RS(U)>;
 };
 
 macro_MU: macro_MU{
@@ -792,7 +792,7 @@ label = "macro_MU";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(M)>, <&kp RS(U)>
+bindings = <&kp RS(M)>, <&kp RS(U)>;
 };
 
 macro_WA: macro_WA{
@@ -801,7 +801,7 @@ label = "macro_WA";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(W)>, <&kp RS(A)>
+bindings = <&kp RS(W)>, <&kp RS(A)>;
 };
 
 macro_XO: macro_XO{
@@ -810,5 +810,5 @@ label = "macro_XO";
 #binding-cells = <0>;
 wait-ms = <0>;
 tap-ms = <1>;
-<&kp RS(X)>, <&kp RS(O)>
+bindings = <&kp RS(X)>, <&kp RS(O)>;
 };
