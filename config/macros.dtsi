@@ -16,621 +16,710 @@ macro_JPPERIOD: macro_JPPERIOD{
 compatible = "zmk,behavior-macro";
 label = "macro_JPPERIOD";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp PERIOD>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(PERIOD)>};
 
 macro_KA: macro_KA{
 compatible = "zmk,behavior-macro";
 label = "macro_KA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp K>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(K)>, <&kp RS(A)>};
 
 macro_TA: macro_TA{
 compatible = "zmk,behavior-macro";
 label = "macro_TA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp T>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(T)>, <&kp RS(A)>};
 
 macro_KO: macro_KO{
 compatible = "zmk,behavior-macro";
 label = "macro_KO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp K>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(K)>, <&kp RS(O)>};
 
 macro_SA: macro_SA{
 compatible = "zmk,behavior-macro";
 label = "macro_SA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp S>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(S)>, <&kp RS(A)>};
 
 macro_RA: macro_RA{
 compatible = "zmk,behavior-macro";
 label = "macro_RA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp R>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(R)>, <&kp RS(A)>};
 
 macro_TI: macro_TI{
 compatible = "zmk,behavior-macro";
 label = "macro_TI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp T>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(T)>, <&kp RS(I)>};
 
 macro_KU: macro_KU{
 compatible = "zmk,behavior-macro";
 label = "macro_KU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp K>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(K)>, <&kp RS(U)>};
 
 macro_TU: macro_TU{
 compatible = "zmk,behavior-macro";
 label = "macro_TU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp T>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(T)>, <&kp RS(U)>};
 
 macro_JPCOMMA2: macro_JPCOMMA2{
 compatible = "zmk,behavior-macro";
 label = "macro_JPCOMMA2";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp COMMA>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(COMMA)>};
 
 macro_JPCOMMA1: macro_JPCOMMA1{
 compatible = "zmk,behavior-macro";
 label = "macro_JPCOMMA1";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp COMMA>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(COMMA)>};
 
 macro_U: macro_U{
 compatible = "zmk,behavior-macro";
 label = "macro_U";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(U)>};
 
 macro_SI: macro_SI{
 compatible = "zmk,behavior-macro";
 label = "macro_SI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp S>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(S)>, <&kp RS(I)>};
 
 macro_TE: macro_TE{
 compatible = "zmk,behavior-macro";
 label = "macro_TE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp T>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(T)>, <&kp RS(E)>};
 
 macro_KE: macro_KE{
 compatible = "zmk,behavior-macro";
 label = "macro_KE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp K>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(K)>, <&kp RS(E)>};
 
 macro_SE: macro_SE{
 compatible = "zmk,behavior-macro";
 label = "macro_SE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp S>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(S)>, <&kp RS(E)>};
 
 macro_HA: macro_HA{
 compatible = "zmk,behavior-macro";
 label = "macro_HA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp H>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(H)>, <&kp RS(A)>};
 
 macro_TO: macro_TO{
 compatible = "zmk,behavior-macro";
 label = "macro_TO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp T>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(T)>, <&kp RS(O)>};
 
 macro_KI: macro_KI{
 compatible = "zmk,behavior-macro";
 label = "macro_KI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp K>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(K)>, <&kp RS(I)>};
 
 macro_I: macro_I{
 compatible = "zmk,behavior-macro";
 label = "macro_I";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(I)>};
 
 macro_NN: macro_NN{
 compatible = "zmk,behavior-macro";
 label = "macro_NN";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp N>, <&kp N>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(N)>, <&kp RS(N)>};
 
 macro_JPBACKSPACE: macro_JPBACKSPACE{
 compatible = "zmk,behavior-macro";
 label = "macro_JPBACKSPACE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp BACKSPACE>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(BACKSPACE)>};
 
 macro_JPTEN: macro_JPTEN{
 compatible = "zmk,behavior-macro";
 label = "macro_JPTEN";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp PERIOD>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(PERIOD)>};
 
 macro_HI: macro_HI{
 compatible = "zmk,behavior-macro";
 label = "macro_HI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp H>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(H)>, <&kp RS(I)>};
 
 macro_SU: macro_SU{
 compatible = "zmk,behavior-macro";
 label = "macro_SU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp S>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(S)>, <&kp RS(U)>};
 
 macro_HU: macro_HU{
 compatible = "zmk,behavior-macro";
 label = "macro_HU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp H>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(H)>, <&kp RS(U)>};
 
 macro_HE: macro_HE{
 compatible = "zmk,behavior-macro";
 label = "macro_HE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp H>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(H)>, <&kp RS(E)>};
 
 macro_ME: macro_ME{
 compatible = "zmk,behavior-macro";
 label = "macro_ME";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp M>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(M)>, <&kp RS(E)>};
 
 macro_SO: macro_SO{
 compatible = "zmk,behavior-macro";
 label = "macro_SO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp S>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(S)>, <&kp RS(O)>};
 
 macro_NE: macro_NE{
 compatible = "zmk,behavior-macro";
 label = "macro_NE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp N>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(N)>, <&kp RS(E)>};
 
 macro_HO: macro_HO{
 compatible = "zmk,behavior-macro";
 label = "macro_HO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp H>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(H)>, <&kp RS(O)>};
 
 macro_JPNAKATEN: macro_JPNAKATEN{
 compatible = "zmk,behavior-macro";
 label = "macro_JPNAKATEN";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp SLASH>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(SLASH)>};
 
 macro_JPEN: macro_JPEN{
 compatible = "zmk,behavior-macro";
 label = "macro_JPEN";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp LA(BACKSLASH)>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(LA(BACKSLASH))>};
 
 macro_XA: macro_XA{
 compatible = "zmk,behavior-macro";
 label = "macro_XA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(A)>};
 
 macro_E: macro_E{
 compatible = "zmk,behavior-macro";
 label = "macro_E";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(E)>};
 
 macro_RI: macro_RI{
 compatible = "zmk,behavior-macro";
 label = "macro_RI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp R>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(R)>, <&kp RS(I)>};
 
 macro_XYA: macro_XYA{
 compatible = "zmk,behavior-macro";
 label = "macro_XYA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp Y>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(Y)>, <&kp RS(A)>};
 
 macro_RE: macro_RE{
 compatible = "zmk,behavior-macro";
 label = "macro_RE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp R>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(R)>, <&kp RS(E)>};
 
 macro_PA: macro_PA{
 compatible = "zmk,behavior-macro";
 label = "macro_PA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp P>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(P)>, <&kp RS(A)>};
 
 macro_DI: macro_DI{
 compatible = "zmk,behavior-macro";
 label = "macro_DI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp D>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(D)>, <&kp RS(I)>};
 
 macro_GU: macro_GU{
 compatible = "zmk,behavior-macro";
 label = "macro_GU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp G>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(G)>, <&kp RS(U)>};
 
 macro_DU: macro_DU{
 compatible = "zmk,behavior-macro";
 label = "macro_DU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp D>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(D)>, <&kp RS(U)>};
 
 macro_PI: macro_PI{
 compatible = "zmk,behavior-macro";
 label = "macro_PI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp P>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(P)>, <&kp RS(I)>};
 
 macro_WO: macro_WO{
 compatible = "zmk,behavior-macro";
 label = "macro_WO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp W>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(W)>, <&kp RS(O)>};
 
 macro_A: macro_A{
 compatible = "zmk,behavior-macro";
 label = "macro_A";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(A)>};
 
 macro_NA: macro_NA{
 compatible = "zmk,behavior-macro";
 label = "macro_NA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp N>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(N)>, <&kp RS(A)>};
 
 macro_XYU: macro_XYU{
 compatible = "zmk,behavior-macro";
 label = "macro_XYU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp Y>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(Y)>, <&kp RS(U)>};
 
 macro_MO: macro_MO{
 compatible = "zmk,behavior-macro";
 label = "macro_MO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp M>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(M)>, <&kp RS(O)>};
 
 macro_BA: macro_BA{
 compatible = "zmk,behavior-macro";
 label = "macro_BA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp B>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(B)>, <&kp RS(A)>};
 
 macro_DO: macro_DO{
 compatible = "zmk,behavior-macro";
 label = "macro_DO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp D>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(D)>, <&kp RS(O)>};
 
 macro_GI: macro_GI{
 compatible = "zmk,behavior-macro";
 label = "macro_GI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp G>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(G)>, <&kp RS(I)>};
 
 macro_PO: macro_PO{
 compatible = "zmk,behavior-macro";
 label = "macro_PO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp P>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(P)>, <&kp RS(O)>};
 
 macro_XU: macro_XU{
 compatible = "zmk,behavior-macro";
 label = "macro_XU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(U)>};
 
 macro_JPMINUS2: macro_JPMINUS2{
 compatible = "zmk,behavior-macro";
 label = "macro_JPMINUS2";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp MINUS>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(MINUS)>};
 
 macro_RO: macro_RO{
 compatible = "zmk,behavior-macro";
 label = "macro_RO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp R>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(R)>, <&kp RS(O)>};
 
 macro_YA: macro_YA{
 compatible = "zmk,behavior-macro";
 label = "macro_YA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp Y>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(Y)>, <&kp RS(A)>};
 
 macro_XI: macro_XI{
 compatible = "zmk,behavior-macro";
 label = "macro_XI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(I)>};
 
 macro_PU: macro_PU{
 compatible = "zmk,behavior-macro";
 label = "macro_PU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp P>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(P)>, <&kp RS(U)>};
 
 macro_ZO: macro_ZO{
 compatible = "zmk,behavior-macro";
 label = "macro_ZO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp Z>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(Z)>, <&kp RS(O)>};
 
 macro_PE: macro_PE{
 compatible = "zmk,behavior-macro";
 label = "macro_PE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp P>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(P)>, <&kp RS(E)>};
 
 macro_BO: macro_BO{
 compatible = "zmk,behavior-macro";
 label = "macro_BO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp B>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(B)>, <&kp RS(O)>};
 
 macro_GA: macro_GA{
 compatible = "zmk,behavior-macro";
 label = "macro_GA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp G>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(G)>, <&kp RS(A)>};
 
 macro_DA: macro_DA{
 compatible = "zmk,behavior-macro";
 label = "macro_DA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp D>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(D)>, <&kp RS(A)>};
 
 macro_GO: macro_GO{
 compatible = "zmk,behavior-macro";
 label = "macro_GO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp G>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(G)>, <&kp RS(O)>};
 
 macro_ZA: macro_ZA{
 compatible = "zmk,behavior-macro";
 label = "macro_ZA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp Z>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(Z)>, <&kp RS(A)>};
 
 macro_YO: macro_YO{
 compatible = "zmk,behavior-macro";
 label = "macro_YO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp Y>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(Y)>, <&kp RS(O)>};
 
 macro_NI: macro_NI{
 compatible = "zmk,behavior-macro";
 label = "macro_NI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp N>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(N)>, <&kp RS(I)>};
 
 macro_RU: macro_RU{
 compatible = "zmk,behavior-macro";
 label = "macro_RU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp R>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(R)>, <&kp RS(U)>};
 
 macro_MA: macro_MA{
 compatible = "zmk,behavior-macro";
 label = "macro_MA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp M>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(M)>, <&kp RS(A)>};
 
 macro_XE: macro_XE{
 compatible = "zmk,behavior-macro";
 label = "macro_XE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(E)>};
 
 macro_VU: macro_VU{
 compatible = "zmk,behavior-macro";
 label = "macro_VU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp V>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(V)>, <&kp RS(U)>};
 
 macro_JI: macro_JI{
 compatible = "zmk,behavior-macro";
 label = "macro_JI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp J>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(J)>, <&kp RS(I)>};
 
 macro_DE: macro_DE{
 compatible = "zmk,behavior-macro";
 label = "macro_DE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp D>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(D)>, <&kp RS(E)>};
 
 macro_GE: macro_GE{
 compatible = "zmk,behavior-macro";
 label = "macro_GE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp G>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(G)>, <&kp RS(E)>};
 
 macro_ZE: macro_ZE{
 compatible = "zmk,behavior-macro";
 label = "macro_ZE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp Z>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(Z)>, <&kp RS(E)>};
 
 macro_MI: macro_MI{
 compatible = "zmk,behavior-macro";
 label = "macro_MI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp M>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(M)>, <&kp RS(I)>};
 
 macro_O: macro_O{
 compatible = "zmk,behavior-macro";
 label = "macro_O";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(O)>};
 
 macro_NO: macro_NO{
 compatible = "zmk,behavior-macro";
 label = "macro_NO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp N>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(N)>, <&kp RS(O)>};
 
 macro_XYO: macro_XYO{
 compatible = "zmk,behavior-macro";
 label = "macro_XYO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp Y>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(Y)>, <&kp RS(O)>};
 
 macro_XTU: macro_XTU{
 compatible = "zmk,behavior-macro";
 label = "macro_XTU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp T>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(T)>, <&kp RS(U)>};
 
 macro_BI: macro_BI{
 compatible = "zmk,behavior-macro";
 label = "macro_BI";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp B>, <&kp I>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(B)>, <&kp RS(I)>};
 
 macro_ZU: macro_ZU{
 compatible = "zmk,behavior-macro";
 label = "macro_ZU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp Z>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(Z)>, <&kp RS(U)>};
 
 macro_BU: macro_BU{
 compatible = "zmk,behavior-macro";
 label = "macro_BU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp B>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(B)>, <&kp RS(U)>};
 
 macro_BE: macro_BE{
 compatible = "zmk,behavior-macro";
 label = "macro_BE";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp B>, <&kp E>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(B)>, <&kp RS(E)>};
 
 macro_NU: macro_NU{
 compatible = "zmk,behavior-macro";
 label = "macro_NU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp N>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(N)>, <&kp RS(U)>};
 
 macro_YU: macro_YU{
 compatible = "zmk,behavior-macro";
 label = "macro_YU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp Y>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(Y)>, <&kp RS(U)>};
 
 macro_MU: macro_MU{
 compatible = "zmk,behavior-macro";
 label = "macro_MU";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp M>, <&kp U>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(M)>, <&kp RS(U)>};
 
 macro_WA: macro_WA{
 compatible = "zmk,behavior-macro";
 label = "macro_WA";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp W>, <&kp A>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(W)>, <&kp RS(A)>};
 
 macro_XO: macro_XO{
 compatible = "zmk,behavior-macro";
 label = "macro_XO";
 #binding-cells = <0>;
-bindings = <&to 0>, <&kp X>, <&kp O>, <&to 1>;
-};
+wait-ms = <0>;
+tap-ms = <1>;
+<&kp RS(X)>, <&kp RS(O)>};
