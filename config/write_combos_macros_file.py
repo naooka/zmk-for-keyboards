@@ -130,10 +130,10 @@ def write_macro(macros, bindings):
                 f.write('tap-ms = <1>;\n')
                 for i,s in enumerate(binding):
                     if i == 0:
-                        f.write('<&kp RS(' + s + ')>\n')
+                        f.write('<&kp RS(' + s + ')>')
                     else:
-                        f.write(', <&kp RS(' + s + ')>\n')
-                f.write('};\n\n')
+                        f.write(', <&kp RS(' + s + ')>')
+                f.write('\n};\n\n')
             elif (macro != 'NONE' and binding == 'NONE') or (macro == 'NONE' and binding != 'NONE'):
                 print('macro-binding pair error.')
             else:
