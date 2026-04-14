@@ -7,7 +7,7 @@ fingers = [ 1,  2,  3,  4,  5,      6,  7,  8,  9, 10, 11,\
 left_thumb  = 37
 right_thumb = 40
 
-base_origin = [\
+base_origins = [\
  'Q', 'W',   'E',   'R',   'T',         'Y',   'U',   'I',   'O', 'P',  '',\
  'A', 'S',   'D',   'F',   'G',         'H',   'J',   'K',   'L',  '',  '',\
  'Z', 'X',   'C',   'V',   'B',         'N',   'M',    '',    '',  '',  ''\
@@ -95,7 +95,7 @@ path_w = 'behaviors.keymap'
 with open(path_w, mode='w') as f:
     f.write('behaviors {\n')
     f.write('\tcompatible = "zmk,behavior-mod-morph";\n\n')
-    write_behavior(base_macros, bases)
+    write_behavior(base_macros, base_origins)
     f.write('};')
 
 def write_ime_on_macro():
