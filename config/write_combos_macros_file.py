@@ -12,7 +12,7 @@ base_origins = [\
  'A', 'S',   'D',   'F',   'G',         'H',   'J',   'K',   'L',  '',  '',\
  'Z', 'X',   'C',   'V',   'B',         'N',   'M',    '',    '',  '',  ''\
  ]
-print(len(base_origin))
+print(len(base_origins))
 
 base_macros = [\
  'JPPERIOD', 'KA',   'TA',   'KO',   'SA',         'RA',   'TI',   'KU',   'TU',   'JPCOMMA2',  'JPCOMMA1',\
