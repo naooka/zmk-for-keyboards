@@ -64,7 +64,7 @@ def write_combo(fingers, thumb, macros):
                 f.write('\tcombo_' + macro + ' {\n')
                 f.write('\t\ttimeout-ms = <' + str(timeout_ms) + '>;\n')
                 f.write('\t\tkey-positions = <' + str(finger) + ' ' + str(thumb) + '>;\n')
-                f.write('\t\tlayers = <4>;\n')
+                f.write('\t\tlayers = <1>;\n')
                 f.write('\t\tbindings = <&macro_' + macro + '>;\n')
                 f.write('\t};\n\n')
             else:
