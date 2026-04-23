@@ -103,7 +103,7 @@
 
         layer_nicola {
             bindings = <
- &trans  &mm_JPPERIOD    &mm_KA    &mm_TA    &mm_KO    &mm_SA            &mm_RA    &mm_TI    &mm_KU    &mm_TU   &macro_JPCOMMA2     &kp BSPC
+ &macro_ESC  &mm_JPPERIOD    &mm_KA    &mm_TA    &mm_KO    &mm_SA            &mm_RA    &mm_TI    &mm_KU    &mm_TU   &macro_JPCOMMA2     &kp BSPC
  &trans         &mm_U    &mm_SI    &mm_TE    &mm_KE    &mm_SE            &mm_HA    &mm_TO    &mm_KI    &mm_I    &macro_NN  &macro_JPBACKSPACE
  &kp RSHFT  &mm_JPTEN    &mm_HI    &mm_SU    &mm_HU    &mm_HE            &mm_ME    &mm_SO    &macro_NE  &macro_HO  &macro_JPNAKATEN         &kp LSHFT
              &kp LGUI  &kp SPACE  &lt 2 SPACE  &lt 3 ENTER  &kp SPACE  &kp RALT
