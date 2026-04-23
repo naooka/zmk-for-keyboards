@@ -12,6 +12,13 @@ label = "macro_IMEOFF";
 bindings = <&kp INT5>, <&to 0>;
 };
 
+macro_ESC: macro_ESC{
+compatible = "zmk,behavior-macro";
+label = "macro_ESC";
+#binding-cells = <0>;
+bindings = <&kp ESC>, <&kp INT5>, <&to 0>;
+};
+
 macro_JPPERIOD: macro_JPPERIOD{
 compatible = "zmk,behavior-macro";
 label = "macro_JPPERIOD";
