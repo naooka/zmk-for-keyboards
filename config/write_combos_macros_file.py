@@ -114,6 +114,14 @@ def write_ime_off_macro():
     f.write('#binding-cells = <0>;\n')
     f.write('bindings = <&kp INT5>, <&to 0>;\n')
     f.write('};\n\n')
+           
+def write_esc():
+    f.write('macro_ESC: macro_ESC{\n')
+    f.write('compatible = "zmk,behavior-macro";\n')
+    f.write('label = "macro_ESC";\n')
+    f.write('#binding-cells = <0>;\n')
+    f.write('bindings = <&kp ESC>, <&kp INT5>, <&to 0>;\n')
+    f.write('};\n\n')
 
 def write_macro(macros, bindings):
     if len(macros) == len(bindings):
@@ -147,6 +155,7 @@ path_w = 'macros.dtsi'
 with open(path_w, mode='w') as f:
     write_ime_on_macro()
     write_ime_off_macro()
+    write_esc()
     write_macro(base_macros, base_bindings)
     write_macro(left_macros, left_bindings)
     write_macro(right_macros, right_bindings)
